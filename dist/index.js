@@ -3947,7 +3947,7 @@ function predictPattern(input) {
     return __awaiter(this, void 0, void 0, function* () {
         yield loadModel();
         if (input.values.length < 300) {
-            console.warn('Pattern detector requires atleast 300 data points for a reliable prediction, received just ', input.values.length);
+            //console.warn('Pattern detector requires atleast 300 data points for a reliable prediction, received just ', input.values.length);
         }
         Indicator.reverseInputs(input);
         var values = input.values;
